@@ -12,8 +12,8 @@ class AppTheme {
           backgroundColor: Color(0xFF1E1E1E),
         ),
         textTheme: const TextTheme(
-          bodyLarge: TextStyle(color: Color(0xFFFFFEFF)),
-          bodyMedium: TextStyle(color: Color(0xFFFFFEFF)),
+          bodyLarge: TextStyle(color: Color(0xFFFFFEFF), fontFamily: 'Popins'),
+          bodyMedium: TextStyle(color: Color(0xFFFFFEFF), fontFamily: 'Popins'),
           // Add more text styles as needed
         ),
         buttonTheme: const ButtonThemeData(
@@ -30,8 +30,8 @@ class AppTheme {
           backgroundColor: Colors.black,
         ),
         textTheme: const TextTheme(
-          bodyLarge: TextStyle(color: Colors.black),
-          bodyMedium: TextStyle(color: Colors.black),
+          bodyLarge: TextStyle(color: Colors.black, fontFamily: 'Popins'),
+          bodyMedium: TextStyle(color: Colors.black, fontFamily: 'Popins'),
           // Add more text styles as needed
         ),
         buttonTheme: const ButtonThemeData(

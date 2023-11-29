@@ -90,7 +90,7 @@ The project adheres to linting rules for clean and consistent code. Key linting 
 - **cascade_invocations:** 
 - **sort_constructors_first:** 
 
+## Demo
 
-## Contributing
-Contributions are welcome! If you have any ideas, improvements, or bug fixes, please open an issue or submit a pull request.
+![App Demo](demo.gif)
 
