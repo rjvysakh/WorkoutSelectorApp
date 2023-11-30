@@ -37,6 +37,9 @@ jobs:
 
     - name: Run tests
       run: flutter test
+    - name: Run analyze
+      run: flutter analyze
+      
     - run: flutter build apk --release --split-per-abi
 #     - run: flutter build appbundle
     - name: Create a Release in GitHub
