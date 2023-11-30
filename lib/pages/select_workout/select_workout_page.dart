@@ -42,7 +42,7 @@ class SelectWorkoutsPage extends StatelessWidget {
                     option: selectableOptions[index],
                     onTap: (SelectableOption opt) => context
                         .read<SelectWorkoutsCubit>()
-                        .toggleOptionSelection(opt),
+                        .toggleOptionSelection(opt, context),
                   );
                 },
               ),
