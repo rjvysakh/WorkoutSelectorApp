@@ -1,7 +1,5 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
-import 'package:meta/meta.dart';
-import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:workout_selector/core/ui/scaffold_messenger_extension.dart';
 import 'package:workout_selector/models/selectable_option.dart';
 import 'package:workout_selector/repositories/options_repository.dart';
